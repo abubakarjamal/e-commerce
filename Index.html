@@ -23,62 +23,59 @@
 </head>
 <body>
 <div class="">
-  <div class="w3-row w3-white w3-card-4 ">
-    
-  <div class="w3-quarter">  
-  <a  class="w3-bar-item w3-padding-top-24 w3-hide-large w3-hide-medium w3-left" href="javascript:void(0)" onclick="myFun()" title="Toggle Navigation"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-left"><img class="w3-padding-top-24" src="logo.svg" alt="" style="padding: 5px 1px 0 2px ;"/></a>
-    <img class="w3-bar-item w3-hide-medium w3-hide-large w3-margin w3-right" src="image-avatar.png" alt="avatar" width="15%"/>
- <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-right w3-hide-large w3-hide-medium w3-white">
-  <img class="w3-bar-item  w3-padding-top-24 w3-right" src="icon-cart.svg" alt="cartLogo" /> </button>
-  <div id="id01" class="w3-modal">
-    <div class="w3-modal-content  w3-border w3-round-xlarge">
-      <div class="w3-container">
-        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-        <br />
-        <h3 class="w3-bottombar">Cart</h3>
-        <p class="w3-opacity w3-padding-top-64 w3-center"><strong>your cart is empty</strong></p>
-      </div>
-    </div>
-  </div>
-    </div>
-    <div class="w3-half w3-padding">
-    <a href="" class="w3-bar-item w3-hide-small w3-button">Collections</a>
-    <a href="" class="w3-bar-item w3-hide-small w3-button">Men</a>
-    <a href="#" class="w3-bar-item w3-hide-small w3-button w3-border-orange w3-bottombar">Women</a>
-    <a href="#" class="w3-button w3-hide-small w3-bar-item">About</a>
-    <a href="" class="w3-bar-item w3-hide-small w3-button">Contact</a>
-  </div>
-   <div id="ty" class="w3-bar-block w3-white w3-padding-top-32 w3-overlay  w3-hide w3-hide-large w3-hide-medium" style="display:none;z-index:3;width:20%;min-width:250px"> 
-   <button onclick="w3_close()" class="w3-bar-item w3-large">&times;</button>
-   <a href="" class="w3-button w3-hide-large w3-hide-medium w3-bar-item"><strong>Collection</strong></a>
-     <a href="" class="w3-button w3-hide-medium w3-hide-large w3-bar-item"><strong>Men</strong></a>
-   <a href="" class="w3-button w3-hide-large w3-hide-medium w3-bar-item"><strong>Women</strong></a>
-     <a href="" class="w3-button w3-hide-medium w3-hide-large w3-bar-item"><strong>About</strong></a>
-   <a href="" class="w3-button w3-hide-large w3-hide-medium w3-bar-item"><strong>Contact</strong></a>
-     
-   </div>
-  <div class="w3-quarter">
-    <img class="w3-bar-item w3-hide-small w3-margin w3-right" src="image-avatar.png" alt="avatar" width="15%"/>
-   <img class="w3-bar-item w3-hide-small w3-padding-top-24 w3-right" src="icon-cart.svg" alt="cartLogo" /> 
-  </div>
-  </div>
-  <div class="w3-row">
-    <div class="w3-content  w3-card-4 w3-padding-top-64 w3-hide-medium w3-hide-large w3-display-container">
-  <img class="mySlide" src="image-product-1.jpg" style="width:100%">
-  <img class="mySlide" src="image-product-2.jpg" style="width:100%">
-  <img class="mySlide" src="image-product-3.jpg" style="width:100%">
-  <img class="mySlide" src="image-product-4.jpg" style="width:100%">
-
-  <button class="w3-button w3-white w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-white w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+<div class="w3-row w3-white w3-card-4 ">
+<div class="w3-quarter">  
+<a class="w3-bar-item w3-padding-top-24 w3-hide-large w3-hide-medium w3-left" href="javascript:void(0)" onclick="myFun()" title="Toggle Navigation"><i class="fa fa-bars"></i></a>
+<a href="#" class="w3-bar-item w3-left"><img class="w3-padding-top-24" src="logo.svg" alt="" style="padding: 5px 1px 0 2px ;"/></a>
+<img class="w3-bar-item w3-hide-medium w3-hide-large w3-margin w3-right" src="image-avatar.png" alt="avatar" width="15%"/>
+<button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-right w3-hide-large w3-hide-medium w3-white">
+<img class="w3-bar-item  w3-padding-top-24 w3-right" src="icon-cart.svg" alt="cartLogo" /> </button>
+<div id="id01" class="w3-modal">
+<div class="w3-modal-content  w3-border w3-round-xlarge">
+<div class="w3-container">
+<span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+<br />
+<h3 class="w3-bottombar">Cart</h3>
+<p class="w3-opacity w3-padding-top-64 w3-center"><strong>your cart is empty</strong></p>
 </div>
-    <div class="w3-half w3-padding-top-64">
-      <img class="w3-border w3-hide-small w3-hover-opacity w3-round-xlarge " src="image-product-1.jpg" alt="" width="100%" />
-      <div class=" w3-padding-large w3-row w3-hide-small">
-      <div class="w3-quarter" style="padding:1px 3px 0 2px;">
-        <img class="w3-border w3-hover-border-orange w3-hover-opacity w3-round-xxlarge" src="image-product-1.jpg" alt="" width="100%" onclick="openModal();currentDiv(1)" class="w3-hover-shadow"/>
-      </div>
+</div>
+</div>
+</div>
+<div class="w3-half w3-padding">
+<a href="" class="w3-bar-item w3-hide-small w3-button">Collections</a>
+<a href="" class="w3-bar-item w3-hide-small w3-button">Men</a>
+<a href="#" class="w3-bar-item w3-hide-small w3-button w3-border-orange w3-bottombar">Women</a>
+<a href="#" class="w3-button w3-hide-small w3-bar-item">About</a>
+<a href="" class="w3-bar-item w3-hide-small w3-button">Contact</a>
+</div>
+<div id="ty" class="w3-bar-block w3-white w3-padding-top-32 w3-overlay  w3-hide w3-hide-large w3-hide-medium" style="display:none;z-index:3;width:20%;min-width:250px"> 
+<button onclick="w3_close()" class="w3-bar-item w3-large">&times;</button>
+<a href="" class="w3-button w3-hide-large w3-hide-medium w3-bar-item"><strong>Collection</strong></a>
+<a href="" class="w3-button w3-hide-medium w3-hide-large w3-bar-item"><strong>Men</strong></a>
+<a href="" class="w3-button w3-hide-large w3-hide-medium w3-bar-item"><strong>Women</strong></a>
+<a href="" class="w3-button w3-hide-medium w3-hide-large w3-bar-item"><strong>About</strong></a>
+<a href="" class="w3-button w3-hide-large w3-hide-medium w3-bar-item"><strong>Contact</strong></a>   
+</div>
+<div class="w3-quarter">
+<img class="w3-bar-item w3-hide-small w3-margin w3-right" src="image-avatar.png" alt="avatar" width="15%"/>
+<img class="w3-bar-item w3-hide-small w3-padding-top-24 w3-right" src="icon-cart.svg" alt="cartLogo" /> 
+  </div>
+  </div>
+<div class="w3-row">
+<div class="w3-content  w3-card-4 w3-padding-top-64 w3-hide-medium w3-hide-large w3-display-container">
+<img class="mySlide" src="image-product-1.jpg" style="width:100%">
+<img class="mySlide" src="image-product-2.jpg" style="width:100%">
+<img class="mySlide" src="image-product-3.jpg" style="width:100%">
+<img class="mySlide" src="image-product-4.jpg" style="width:100%">
+<button class="w3-button w3-white w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+ <button class="w3-button w3-white w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+<div class="w3-half w3-padding-top-64">
+<img class="w3-border w3-hide-small w3-hover-opacity w3-round-xlarge " src="image-product-1.jpg" alt="" width="100%" />
+<div class=" w3-padding-large w3-row w3-hide-small">
+<div class="w3-quarter" style="padding:1px 3px 0 2px;">
+<img class="w3-border w3-hover-border-orange w3-hover-opacity w3-round-xxlarge" src="image-product-1.jpg" alt="" width="100%" onclick="openModal();currentDiv(1)" class="w3-hover-shadow"/>
+</div>
       <div class="w3-quarter" style="padding:1px 3px 0 2px;">
         <img class="w3-border w3-hover-border-orange w3-hover-opacity w3-hover-shadow w3-round-xxlarge" src="image-product-2.jpg" alt="" width="100%" onclick="openModal();currentDiv(2)"  />
       </div>
@@ -107,55 +104,50 @@
     <div class="w3-col s4">
      <img class="demo  w3-border w3-round-xxlarge w3-opacity w3-hover-opacity-off" src="image-product-1.jpg" style="width:80%" onclick="currentDiv(1)" alt="product 1">
     </div>
-    <div class="w3-col s4">
-     <img class="demo  w3-border w3-round-xxlarge w3-opacity w3-hover-opacity-off" src="image-product-2.jpg" style="width:80%" onclick="currentDiv(2)" alt="product 2">
-    </div>
-     <div class="w3-col s4">
-     <img class="demo  w3-border w3-round-xxlarge w3-opacity w3-hover-opacity-off" src="image-product-3.jpg" style="width:80%" onclick="currentDiv(3)" alt="product 3">
-    </div>
-    <div class="w3-col s4">
-     <img class="demo w3-border w3-round-xxlarge w3-opacity w3-hover-opacity-off" src="image-product-4.jpg" style="width:80%" onclick="currentDiv(4)" alt="product 4">
-  </div>
-   </div> <!-- End row -->
-  </div> <!-- End w3-content -->
+<div class="w3-col s4">
+<img class="demo  w3-border w3-round-xxlarge w3-opacity w3-hover-opacity-off" src="image-product-2.jpg" style="width:80%" onclick="currentDiv(2)" alt="product 2">
+</div>
+<div class="w3-col s4">
+<img class="demo  w3-border w3-round-xxlarge w3-opacity w3-hover-opacity-off" src="image-product-3.jpg" style="width:80%" onclick="currentDiv(3)" alt="product 3">
+</div>
+<div class="w3-col s4">
+<img class="demo w3-border w3-round-xxlarge w3-opacity w3-hover-opacity-off" src="image-product-4.jpg" style="width:80%" onclick="currentDiv(4)" alt="product 4">
+</div>
+</div> <!-- End row -->
+</div> <!-- End w3-content -->
 </div>
 </div>
 </div>
-    <div class="w3-half  w3-padding">
-      
-  <h3 class="w3-text-orange" style="font-family:bold; letter-spacing: 1px; padding: 60px 1px 0 30px;"><strong>Sneaker Company</strong></h3>
-    <h1 style="padding: 10px 1px 0 30px;"> <strong>Fall Limited Edition Sneakers</strong></h1>
-      <h4 class="w3-min-opacity" style="padding: 15px 1px 15px 30px;">These low-profile sneakers are your perfect casual wear companion. Featuring a 
+<div class="w3-half  w3-padding">
+<h3 class="w3-text-orange" style="font-family:bold; letter-spacing: 1px; padding: 60px 1px 0 30px;"><strong>Sneaker Company</strong></h3>
+<h1 style="padding: 10px 1px 0 30px;"> <strong>Fall Limited Edition Sneakers</strong></h1>
+<h4 class="w3-min-opacity" style="padding: 15px 1px 15px 30px;">These low-profile sneakers are your perfect casual wear companion. Featuring a 
   durable rubber outer sole, they’ll withstand everything the weather can offer.</h4>
-  <div class="w3-row ">
-    <div class="w3-half">
-     <h1 class="" style="padding: 5px 1px 0 30px;"><strong>$125.00</strong> <span class="w3-sand w3-small  w3-text-orange w3-border w3-round-small w3-tag">50%</span></h1> 
-       
-    </div>
-    <div class="w3-half">
-    <h1 class=" w3-opacity w3-hide-small w3-xlarge w3-right " style="padding: 5px 1px 0 30px;"><strong><del>$250.00</del></strong></h1>
-      <h1 class=" w3-opacity w3-xlarge w3-hide-large w3-hide-medium" style="padding: 5px 1px 0 30px;"><strong><del>$250.00</del></strong></h1>
-    </div>
-  </div>
+<div class="w3-row ">
+<div class="w3-half">
+<h1 class="" style="padding: 5px 1px 0 30px;"><strong>$125.00</strong> <span class="w3-sand w3-small  w3-text-orange w3-border w3-round-small w3-tag">50%</span></h1>       
+</div>
+<div class="w3-half">
+<h1 class=" w3-opacity w3-hide-small w3-xlarge w3-right " style="padding: 5px 1px 0 30px;"><strong><del>$250.00</del></strong></h1>
+<h1 class=" w3-opacity w3-xlarge w3-hide-large w3-hide-medium" style="padding: 5px 1px 0 30px;"><strong><del>$250.00</del></strong></h1>
+</div>
+</div>
 <div class="w3-container w3-row">
-  <div class="w3-half">
-    <button  class="w3-button w3-hide-small w3-xlarge w3-sand w3-border w3-block w3-text-black w3-round-xlarge" type="reset"><img class="w3-left " src="icon-minus.svg" alt="" style="padding:15px 1px 0 0;"/><strong>3</strong><img class="w3-right" src="icon-plus.svg" alt="" style="padding:15px 1px 0 0;"/></button>
-    <button  class="w3-button w3-xlarge w3-sand w3-border w3-block w3-hide-large w3-hide-medium w3-text-black w3-round-xlarge" type="reset"><img class="w3-left " src="icon-minus.svg" alt="" style="padding:15px 1px 0 0;"/><strong>1</strong><img class="w3-right" src="icon-plus.svg" alt="" style="padding:15px 1px 0 0;"/></button>
-  </div>
-  <div class="w3-half">
-  <button class="w3-button w3-hover-opacity w3-padding w3-xlarge w3-orange w3-block w3-text-white w3-round-xlarge" style="padding:1px 3px 0 10px;"> <img src="icon-cart.svg" alt="" /> Add to Cart</button>
-  </div>
+<div class="w3-half">
+<button  class="w3-button w3-hide-small w3-xlarge w3-sand w3-border w3-block w3-text-black w3-round-xlarge" type="reset"><img class="w3-left " src="icon-minus.svg" alt="" style="padding:15px 1px 0 0;"/><strong>3</strong><img class="w3-right" src="icon-plus.svg" alt="" style="padding:15px 1px 0 0;"/></button>
+<button  class="w3-button w3-xlarge w3-sand w3-border w3-block w3-hide-large w3-hide-medium w3-text-black w3-round-xlarge" type="reset"><img class="w3-left " src="icon-minus.svg" alt="" style="padding:15px 1px 0 0;"/><strong>1</strong><img class="w3-right" src="icon-plus.svg" alt="" style="padding:15px 1px 0 0;"/></button>
 </div>
-      
-    </div>
-  </div>
+<div class="w3-half">
+<button class="w3-button w3-hover-opacity w3-padding w3-xlarge w3-orange w3-block w3-text-white w3-round-xlarge" style="padding:1px 3px 0 10px;"> <img src="icon-cart.svg" alt="" /> Add to Cart</button>
 </div>
- 
-  
-  <div class="attribution">
+</div>
+</div>
+</div>
+</div>
+<div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="w3-button w3-text-orange">Frontend Mentor</a>
     Coded by <a href="" class="w3-button w3-text-orange">jamal</a>
-  </div>
+</div>
   <script>
 function openModal() {
   document.getElementById('myModal').style.display = "block";
